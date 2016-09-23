@@ -1,0 +1,101 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Orbitron', sans-serif;
+*/
+#contenidos{
+     width: 1000px;
+     height: auto;
+     margin: auto;
+     position: relative;
+}
+body {
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h1{
+font-family: 'Rubik', sans-serif;
+color: white;
+margin-left: 15px;
+font-size: 25px;
+text-align: center;
+
+ }
+h2{
+font-family: 'Orbitron', sans-serif;
+color: white;
+margin-left: 6px;
+margin-top: 85px;
+font-size: 18px;
+text-align: left;
+
+}
+h4{
+font-family: 'Orbitron', sans-serif;
+color: white;
+margin-left: 6px;
+margin-top: 5px;
+font-size: 18px;
+text-align: left;
+}
+header{
+width: 1000px;
+height: 140px;
+background: rgba(255, 255, 255, 50);
+background-image: url(../img/logo1.GIF);
+border-radius: 10px;
+}
+nav{
+width: 1000px;
+height: 70px;
+background: orange;
+border-radius:15px;
+}
+ul{
+margin: auto;
+padding-top: 10px;
+}
+li{
+float:left;
+list-style: none;
+padding: 10px;
+background: white;
+margin: 7.5px;
+margin-left: 0px;
+border-radius:10px;
+box-shadow: 0 0 10px black inset;
+}
+section{
+width: 710px;
+background: white;
+height: 1000px;
+float:left;
+}
+aside{
+font-family: 'Rubik', sans-serif;
+color: white;	
+width: 270px;
+background:purple;
+height: 988px;
+float:left;
+margin-left: 20px;
+
+}
+footer{
+width: 1000px;
+height: 50px;
+background: black;
+float: left;
+margin-top: 1px
+}
+
+
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: blue;text-decoration: none;}
+.menu:visited{color: blue;text-decoration: none;}
+.menu:hover{color: blue;text-decoration: none;text-shadow: 0 0 15px blue;}
+.menu:active{color: blue;text-decoration: none;}
